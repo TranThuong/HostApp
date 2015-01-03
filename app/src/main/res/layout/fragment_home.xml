@@ -1,0 +1,32 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tranthuong.hostapp.fragments.HomeFragment">
+
+    <TextView android:layout_width="match_parent" android:layout_height="match_parent"
+        android:text="@string/user_data_loaded_home_msg"
+        android:textColor="@color/home_decor_color"
+        android:textSize="@dimen/home_msg_text_size"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:visibility="visible"
+        android:id="@+id/homeTextMsg_id" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/get_user_data_title"
+        android:id="@+id/getUserDataBt_id"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/home_title_text_size"
+        android:gravity="center"
+        android:background="@drawable/round_rect_home_bt_bg"
+        android:textStyle="bold"
+        android:paddingLeft="55dp"
+        android:paddingRight="55dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:visibility="gone" />
+
+</FrameLayout>

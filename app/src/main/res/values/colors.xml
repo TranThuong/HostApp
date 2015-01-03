@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="slide_menu_bg">#0E445F</color>
+    <color name="main_header_color">#0093D8</color>
+    <color name="home_decor_color">#0093D8</color>
+
+    <!-- PROFILE -->
+    <color name="profile_horizontal_separator_color">#F2F2F2</color>
+    <color name="profile_text_color">#9B9B9B</color>
+
+    <color name="settings_bg_color">#E5E5E5</color>
+    <color name="settings_text_title_color">#C7C7C7</color>
+    <color name="settings_text_unit_color">#DC8381</color>
+
+    <color name="menu_item_txt_color">#008000</color>
+
+</resources>

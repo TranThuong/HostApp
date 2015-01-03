@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/main_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_toEndOf="@+id/slidemenu_layout">
+
+        <RelativeLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:padding="2dp"
+            android:background="@color/main_header_color">
+
+            <TextView
+                android:id="@+id/sectionTitle_id"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/home_title"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/primary_text_dark"
+                android:gravity="center" />
+
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@+id/contenuPage_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|center"
+            android:layout_below="@+id/header"
+            >
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+    <include layout="@layout/slide_menu"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_height="fill_parent"
+        android:layout_width="260dp" />
+</RelativeLayout>

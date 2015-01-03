@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HostApp</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="ok_title">OK</string>
+
+    <!-- SLIDE MENU STRINGS -->
+    <string name="slidemenu_home">Home</string>
+    <string name="slidemenu_profile">Profile</string>
+    <string name="slidemenu_settings">Settings</string>
+
+    <!-- HEADER TITLE STRINGS -->
+    <string name="home_title">HostApp</string>
+    <string name="profile_title">Profile</string>
+    <string name="settings_title">Settings</string>
+
+    <!-- HOME STRINGS -->
+    <string name="user_data_loaded_home_msg">USER\'S DATA LOADED</string>
+    <string name="user_data_unavailable_home_msg">USER\'S DATA UNAVAILABLE</string>
+    <string name="get_user_data_title">GET USER</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- PROFILE STRINGS -->
+    <string name="profile_fistname_title">Prénom :</string>
+    <string name="profile_age_title">Age</string>
+    <string name="photo_title">Photos</string>
+
+    <!-- SETTINGS STRINGS -->
+    <string name="show_me_section_title">ME MONTRER :</string>
+    <string name="men_title">Homes</string>
+    <string name="women_title">Femmes</string>
+
+    <string name="show_age_title">AFFICHER LES AGES :</string>
+    <string name="min_age_title">Age minimun</string>
+    <string name="max_age_title">Age maximun</string>
+
+    <string name="show_in_rayon_title">VOIR LES PROFILES DANS UN RAYON :</string>
+    <string name="rayon_unit_title">km</string>
+
+    <string name="fetchapp_non_installed_err">FetchApp n\'est pas installée</string>
+
+
+</resources>
